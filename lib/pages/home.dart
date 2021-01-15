@@ -36,18 +36,6 @@ class Home extends StatelessWidget {
       ListTile(
         title: Text('Test List'),
       ),
-      Divider(),
-      ListTile(
-        title: Text('Test List'),
-      ),
-      Divider(),
-      ListTile(
-        title: Text('Test List1'),
-      ),
-      Divider(),
-      ListTile(
-        title: Text('Test List2'),
-      ),
     ];
   }
 }
