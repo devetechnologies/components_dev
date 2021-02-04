@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:components_dev/providers/provider_menu.dart';
+
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -14,6 +16,7 @@ class Home extends StatelessWidget {
   }
 
   Widget _list() {
+    print(menuProvider);
     return ListView(
       children: _listItens(),
     );
